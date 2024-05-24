@@ -25,8 +25,8 @@ chapters.forEach(chapter => {
     document.getElementById('chapterList').appendChild(li);
 });
 
-    // Add markers for each ocean region
-    oceanRegions.forEach(region => {
+// Add markers for each ocean region
+oceanRegions.forEach(region => {
     const marker = L.marker(region.coords).addTo(map);
     marker.bindPopup(`<b>${region.name}</b><br>${region.description}<br><br><i>${region.intro}</i>`);
 });
