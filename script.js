@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Add markers for each chapter
 chapters.forEach(chapter => {
     const marker = L.marker(chapter.coords).addTo(map);
-    marker.bindPopup(`<b>${chapter.title}</b><br>${chapter.plot}`);
+    marker.bindPopup(`<b>${chapter.number}. ${chapter.title}</b><br>${chapter.plot}`);
     
     // Add chapter to list in the sidebar
     const li = document.createElement('li');
