@@ -71,7 +71,7 @@ const oceanRegions = [
         coords: [45, -140],
         description: "This enormous blue whale like a small mountain swam slowly beside us.",
         intro: "The blue whale is the largest animal on Earth reaching up to 30 meters in length and feeding on plankton.",
-        image: "oceanRegions/blue-whale.jpg"
+        image: oceanRegions/blue-whale.jpg
     },
     {
         name: "Kelp",
