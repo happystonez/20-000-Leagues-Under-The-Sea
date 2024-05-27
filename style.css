@@ -55,10 +55,6 @@ main {
     height: auto;
 }
 
-.right-column {
-    text-align: left;
-}
-
 .reverse {
     flex-direction: row-reverse;
 }
