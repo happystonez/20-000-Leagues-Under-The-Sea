@@ -6,6 +6,17 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
+// Add markers for each ocean region
+oceanRegions.forEach(region => {
+    const marker = L.marker(region.coords).addTo(map);
+    marker.bindPopup(`
+        <b>${region.name}</b><br>
+        <img src="oceanRegions/${region.image}" alt="${region.name}" style="width:100%;height:auto;"><br>
+        ${region.description}<br><br>
+        <i>${region.intro}</i>
+    `);
+});
+
 // Add markers for each chapter
 chapters.forEach(chapter => {
     const marker = L.marker(chapter.coords).addTo(map);
@@ -23,15 +34,6 @@ chapters.forEach(chapter => {
     `;
     li.appendChild(detail);
     document.getElementById('chapterList').appendChild(li);
-});
-
-// Add markers for each ocean region
-oceanRegions.forEach(region => {
-    const marker = L.marker(region.coords).addTo(map);
-    marker.bindPopup(`<b>${region.name}</b><br>
-    <img src="oceanRegions/${region.image}" alt="${region.name}" style="width:100%;height:auto;"><br>
-    ${region.description}<br><br>
-    <i>${region.intro}</i>`);
 });
 
 // Toggle chapter details in the sidebar
