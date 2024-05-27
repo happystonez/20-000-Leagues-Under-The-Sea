@@ -78,35 +78,35 @@ const oceanRegions = [
         coords: [36, -122],
         description: "This gigantic kelp stretched upwards forming underwater canopies.",
         intro: "Kelp is a large brown seaweed that grows in underwater forests in shallow oceans providing food and shelter for marine life.",
-        image: "kelp.jpg"
+        image: "kelp.png"
     },
     {
         name: "Great White Shark",
         coords: [41, -70],
         description: "This massive white shark swam swiftly through the water exposing its sharp teeth.",
         intro: "The great white shark is a top predator in the ocean known for its large size and aggressiveness.",
-        image: "great-white-shark.jpg"
+        image: "great-white-shark.png"
     },
     {
         name: "Swordfish",
         coords: [-20, 70],
         description: "This swordfish darted through the water like an arrow.",
         intro: "Swordfish are known for their long sharp bills excellent at high-speed swimming and hunting small fish.",
-        image: "swordfish.jpg"
+        image: "swordfish.png"
     },
     {
         name: "Cuttlefish",
         coords: [36, 15],
         description: "These intelligent cuttlefish could quickly change color to blend into their surroundings.",
         intro: "Cuttlefish are highly intelligent mollusks capable of rapid color change and ink defense.",
-        image: "cuttlefish.jpg"
+        image: "cuttlefish.png"
     },
     {
         name: "Seagrass",
         coords: [35, 18],
         description: "The seagrass meadows swayed gently providing a home for countless marine animals.",
         intro: "Seagrass is a flowering plant that grows in shallow salty and brackish waters forming extensive underwater meadows.",
-        image: "seagrass.jpg"
+        image: "seagrass.png"
     },
     {
         name: "Giant Oyster",
@@ -120,7 +120,7 @@ const oceanRegions = [
         coords: [23, -87],
         description: "The coral reefs formed beautiful intricate structures teeming with life.",
         intro: "Coral is a marine invertebrate that builds large underwater structures known as coral reefs which provide habitat for many marine species.",
-        image: "coral.jpg"
+        image: "coral.webp"
     },
     {
         name: "Manatee",
