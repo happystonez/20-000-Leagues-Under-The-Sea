@@ -71,7 +71,7 @@ const oceanRegions = [
         coords: [45, -140],
         description: "This enormous blue whale like a small mountain swam slowly beside us.",
         intro: "The blue whale is the largest animal on Earth reaching up to 30 meters in length and feeding on plankton.",
-        image: oceanRegions/blue-whale.jpg
+        image: "oceanRegions/blue-whale.jpg"
     },
     {
         name: "Kelp",
@@ -155,7 +155,7 @@ const oceanRegions = [
         coords: [30, -140],
         description: "Various types of algae clung to the rocks forming colorful patches.",
         intro: "Algae is a diverse group of photosynthetic organisms found in various aquatic environments ranging from microscopic phytoplankton to large seaweeds.",
-        image: oceanRegions/algae.jpg
+        image: "oceanRegions/algae.jpg"
     },
     {
         name: "Seaweed",
