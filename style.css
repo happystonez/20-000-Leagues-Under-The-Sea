@@ -33,7 +33,11 @@ main {
     text-align: left;
 }
 
-.h1,h2 {
+.h1 {
+    text-align: center;
+}
+
+.h2 {
     text-align: center;
 }
 
