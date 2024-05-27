@@ -32,6 +32,25 @@ main {
     text-align: center;
 }
 
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.right-column {
+    text-align: left;
+}
+
 #map {
     width: 80%;
     height: 400px;
