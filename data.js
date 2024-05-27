@@ -4,7 +4,7 @@ const chapters = [
         title: "Departure",
         coords: [40, -70],
         time: "June 1866",
-        plot: "In June 1866, Professor Aronnax is invited to join an expedition sent by the US government to capture a mysterious sea creature. He, along with his assistant Conseil and the whaler Ned Land, boards the warship Abraham Lincoln. One day, they encounter the 'sea monster' in the Atlantic Ocean. After a fierce chase, Professor Aronnax, Conseil, and Ned Land are thrown into the sea and rescued by the mysterious submarine Nautilus. They meet the enigmatic Captain Nemo, who explains his submarine and his love for the ocean, inviting them to join his journey."
+        plot: "Professor Aronnax is invited to join an expedition sent by the US government to capture a mysterious sea creature. He, along with his assistant Conseil and the whaler Ned Land, boards the warship Abraham Lincoln. One day, they encounter the 'sea monster' in the Atlantic Ocean. After a fierce chase, Professor Aronnax, Conseil, and Ned Land are thrown into the sea and rescued by the mysterious submarine Nautilus. They meet the enigmatic Captain Nemo, who explains his submarine and his love for the ocean, inviting them to join his journey."
     },
     {
         number: 2,
