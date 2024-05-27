@@ -120,7 +120,7 @@ const oceanRegions = [
         coords: [23, -87],
         description: "The coral reefs formed beautiful intricate structures teeming with life.",
         intro: "Coral is a marine invertebrate that builds large underwater structures known as coral reefs which provide habitat for many marine species.",
-        image: "coral.webp"
+        image: "coral.jpg"
     },
     {
         name: "Manatee",
