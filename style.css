@@ -79,11 +79,6 @@ main {
     margin: 0;
 }
 
-.responsive-image {
-    max-width: 100%;
-    height: auto;
-}
-
 #chapterList li {
     cursor: pointer;
     margin-bottom: 10px;
