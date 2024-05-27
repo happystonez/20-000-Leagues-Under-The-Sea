@@ -29,7 +29,7 @@ chapters.forEach(chapter => {
 oceanRegions.forEach(region => {
     const marker = L.marker(region.coords).addTo(map);
     marker.bindPopup(`<b>${region.name}</b><br>
-    <img src="images/oceanRegions/${region.image}" alt="${region.name}" style="width:100%;height:auto;"><br>
+    <img src="${region.image}" alt="${region.name}" style="width:100%;height:auto;"><br>
     ${region.description}<br><br>
     <i>${region.intro}</i>`);
 });
