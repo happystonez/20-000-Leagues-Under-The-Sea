@@ -33,6 +33,10 @@ main {
     text-align: left;
 }
 
+.h1 {
+    text-align: center;
+}
+
 .content {
     display: flex;
     margin-top: 20px;
