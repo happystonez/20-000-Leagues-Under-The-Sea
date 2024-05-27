@@ -64,119 +64,117 @@ const chapters = [
     }
 ];
 
-
 const oceanRegions = [
     {
         name: "Blue Whale",
         coords: [45, -140],
         description: "This enormous blue whale like a small mountain swam slowly beside us.",
         intro: "The blue whale is the largest animal on Earth reaching up to 30 meters in length and feeding on plankton.",
-        image: "oceanRegions/blue-whale.jpg"
+        image: "blue-whale.jpg"
     },
     {
         name: "Kelp",
         coords: [36, -122],
         description: "This gigantic kelp stretched upwards forming underwater canopies.",
         intro: "Kelp is a large brown seaweed that grows in underwater forests in shallow oceans providing food and shelter for marine life.",
-        image: "oceanRegions/kelp.jpg"
+        image: "kelp.jpg"
     },
     {
         name: "Great White Shark",
         coords: [41, -70],
         description: "This massive white shark swam swiftly through the water exposing its sharp teeth.",
         intro: "The great white shark is a top predator in the ocean known for its large size and aggressiveness.",
-        image: "oceanRegions/great-white-shark.jpg"
+        image: "great-white-shark.jpg"
     },
     {
         name: "Swordfish",
         coords: [-20, 70],
         description: "This swordfish darted through the water like an arrow.",
         intro: "Swordfish are known for their long sharp bills excellent at high-speed swimming and hunting small fish.",
-        image: "oceanRegions/swordfish.jpg"
+        image: "swordfish.jpg"
     },
     {
         name: "Cuttlefish",
         coords: [36, 15],
         description: "These intelligent cuttlefish could quickly change color to blend into their surroundings.",
         intro: "Cuttlefish are highly intelligent mollusks capable of rapid color change and ink defense.",
-        image: "oceanRegions/cuttlefish.jpg"
+        image: "cuttlefish.jpg"
     },
     {
         name: "Seagrass",
         coords: [35, 18],
         description: "The seagrass meadows swayed gently providing a home for countless marine animals.",
         intro: "Seagrass is a flowering plant that grows in shallow salty and brackish waters forming extensive underwater meadows.",
-        image: "oceanRegions/seagrass.jpg"
+        image: "seagrass.jpg"
     },
     {
         name: "Giant Oyster",
         coords: [23, -87],
         description: "These giant oysters had hard shells hiding enormous pearls inside.",
         intro: "Giant oysters live on seabed rocks feeding by filtering microorganisms from the water.",
-        image: "oceanRegions/giant-oyster.jpg"
+        image: "giant-oyster.jpg"
     },
     {
         name: "Coral",
         coords: [23, -87],
         description: "The coral reefs formed beautiful intricate structures teeming with life.",
         intro: "Coral is a marine invertebrate that builds large underwater structures known as coral reefs which provide habitat for many marine species.",
-        image: "oceanRegions/coral.jpg"
+        image: "coral.jpg"
     },
     {
         name: "Manatee",
         coords: [25, -80],
         description: "These gentle manatees leisurely ate sea grass in the water completely unafraid of us.",
         intro: "Manatees are large aquatic mammals living in shallow waters feeding mainly on sea grass and aquatic plants.",
-        image: "oceanRegions/manatee.jpg"
+        image: "manatee.jpg"
     },
     {
         name: "Giant Squid",
         coords: [32, -64],
         description: "These giant squids stretching out terrifying tentacles attacked our submarine.",
         intro: "The giant squid is a deep-sea mollusk with long tentacles and powerful suckers.",
-        image: "oceanRegions/giant-squid.jpg"
+        image: "giant-squid.jpg"
     },
     {
         name: "Electric Eel",
         coords: [-3, -60],
         description: "These electric eels could release powerful currents paralyzing their prey instantly.",
         intro: "Electric eels are fish living in South American rivers capable of generating electricity for hunting and defense.",
-        image: "oceanRegions/electric-eel.jpg"
+        image: "electric-eel.jpg"
     },
     {
         name: "Red Algae",
         coords: [20, -80],
         description: "The red algae added a vibrant splash of color to the underwater scenery.",
         intro: "Red algae are primarily marine algae known for their reddish pigmentation contributing to the formation of coral reefs.",
-        image: "oceanRegions/red-algae.jpg"
+        image: "red-algae.jpg"
     },
     {
         name: "Algae",
         coords: [30, -140],
         description: "Various types of algae clung to the rocks forming colorful patches.",
         intro: "Algae is a diverse group of photosynthetic organisms found in various aquatic environments ranging from microscopic phytoplankton to large seaweeds.",
-        image: "oceanRegions/algae.jpg"
+        image: "algae.jpg"
     },
     {
         name: "Seaweed",
         coords: [29, -84],
         description: "These seaweeds formed dense underwater forests swaying with the currents.",
         intro: "Seaweed is a general term for various species of marine plants and algae that grow in the ocean.",
-        image: "oceanRegions/seaweed.jpg"
+        image: "seaweed.jpg"
     },
     {
         name: "Mangroves",
         coords: [10, -75],
         description: "The mangrove trees formed dense thickets along the shorelines their roots submerged in the water.",
         intro: "Mangroves are tropical trees that grow in coastal intertidal zones with roots that provide stability and habitat for many marine species.",
-        image: "oceanRegions/mangroves.jpg"
+        image: "mangroves.jpg"
     },
     {
         name: "Phytoplankton",
         coords: [0, -160],
         description: "These tiny phytoplankton drifted with the currents forming the base of the marine food web.",
         intro: "Phytoplankton are microscopic marine algae that perform photosynthesis serving as the primary producers in the oceanic ecosystem.",
-        image: "oceanRegions/phytoplankton.jpg"
+        image: "phytoplankton.jpg"
     }
 ];
-
