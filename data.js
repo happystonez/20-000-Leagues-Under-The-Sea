@@ -71,42 +71,42 @@ const oceanRegions = [
         coords: [45, -140],
         description: "This enormous blue whale like a small mountain swam slowly beside us.",
         intro: "The blue whale is the largest animal on Earth reaching up to 30 meters in length and feeding on plankton.",
-        image: "oceanRegions/blue-whale.png"
+        image: "oceanRegions/blue-whale.jpg"
     },
     {
         name: "Kelp",
         coords: [36, -122],
         description: "This gigantic kelp stretched upwards forming underwater canopies.",
         intro: "Kelp is a large brown seaweed that grows in underwater forests in shallow oceans providing food and shelter for marine life.",
-        image: "oceanRegions/kelp.png"
+        image: "oceanRegions/kelp.jpg"
     },
     {
         name: "Great White Shark",
         coords: [41, -70],
         description: "This massive white shark swam swiftly through the water exposing its sharp teeth.",
         intro: "The great white shark is a top predator in the ocean known for its large size and aggressiveness.",
-        image: "oceanRegions/great-white-shark.png"
+        image: "oceanRegions/great-white-shark.jpg"
     },
     {
         name: "Swordfish",
         coords: [-20, 70],
         description: "This swordfish darted through the water like an arrow.",
         intro: "Swordfish are known for their long sharp bills excellent at high-speed swimming and hunting small fish.",
-        image: "oceanRegions/swordfish.png"
+        image: "oceanRegions/swordfish.jpg"
     },
     {
         name: "Cuttlefish",
         coords: [36, 15],
         description: "These intelligent cuttlefish could quickly change color to blend into their surroundings.",
         intro: "Cuttlefish are highly intelligent mollusks capable of rapid color change and ink defense.",
-        image: "oceanRegions/cuttlefish.png"
+        image: "oceanRegions/cuttlefish.jpg"
     },
     {
         name: "Seagrass",
         coords: [35, 18],
         description: "The seagrass meadows swayed gently providing a home for countless marine animals.",
         intro: "Seagrass is a flowering plant that grows in shallow salty and brackish waters forming extensive underwater meadows.",
-        image: "oceanRegions/seagrass.png"
+        image: "oceanRegions/seagrass.jpg"
     },
     {
         name: "Giant Oyster",
