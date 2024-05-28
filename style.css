@@ -174,13 +174,11 @@ h1,h2 {
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-table, th, td {
     border: 1px solid black;
 }
 
 th, td {
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
