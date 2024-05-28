@@ -82,12 +82,12 @@ h1,h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 33%;
+    max-width: 10%;
     gap: 10px;
 }
 
 .1-right {
-    max-width: 67%;
+    max-width: 90%;
     padding-left: 20px;
 }
 
