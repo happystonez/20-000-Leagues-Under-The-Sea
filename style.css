@@ -184,6 +184,6 @@ th, td {
 }
 
 .wave {
-    height: 50%;
+    max-height: 50%;
     width: 100%;
 }
