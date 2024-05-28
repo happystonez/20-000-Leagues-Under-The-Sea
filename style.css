@@ -79,22 +79,19 @@ h1,h2 {
     margin-bottom: 20px;
 }
 
-.1-left,
-.1-right {
-    margin:10px;
-}
-
 .1-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 33.33%;
+    max-width: 33%;
+    gap: 10px;
 }
 
 .1-right {
     flex: 2;
-    max-width: 66.67%;
+    max-width: 67%;
+    padding-left: 20px;
 }
 
 .submarine2 img {
