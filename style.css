@@ -83,7 +83,6 @@ h1,h2 {
 .1-left, {
     display: flex;
     flex: 1;
-    flex-direction: column;
     justify-content: space-between;
     max-width: 33%;
     gap: 10px;
@@ -97,16 +96,21 @@ h1,h2 {
     flex: 2;
 }
 
+.2-left,
 .3-left {
     display: flex;
+    flex: 3;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 70%;
+    max-width: 30%;
     gap: 10px;
 }
 
+.2-right,
 .3-right {
-    max-width: 30%;
+    display: flex;
+    flex: 7; 
+    max-width: 70%;
     padding-left: 20px;
 }
 
