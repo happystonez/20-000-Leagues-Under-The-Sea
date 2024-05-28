@@ -75,7 +75,6 @@ h1,h2 {
 
 .submarine1 {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
 }
 
