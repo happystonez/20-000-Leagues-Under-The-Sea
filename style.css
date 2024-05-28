@@ -97,6 +97,11 @@ h1,h2 {
     flex: 2;
 }
 
+.submarine2 img {
+    width: 100%;
+    height: auto;
+}
+
 #map {
     width: 80%;
     height: 400px;
