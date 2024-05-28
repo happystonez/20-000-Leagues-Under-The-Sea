@@ -73,6 +73,12 @@ h1,h2 {
     height: auto;
 }
 
+.submarine1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .1-left,
 .1-right {
     flex: 1;
