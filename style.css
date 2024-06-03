@@ -42,11 +42,6 @@ h1,h2 {
     text-align: center;
 }
 
-.route {
-    text-align: center;
-    margin-top: 0;
-}
-
 .content {
     display: flex;
     margin-top: 20px;
