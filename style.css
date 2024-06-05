@@ -12,7 +12,8 @@ header {
     width: 100%;
 }
 
-.navbar {
+.top-navbar,
+. main-navbar {
     background-color: #ccc1a1a1a;
     color: #ccc;
     width: 100%;
