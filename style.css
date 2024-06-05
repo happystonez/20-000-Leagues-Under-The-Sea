@@ -12,14 +12,10 @@ header {
     width: 100%;
 }
 
-.top-navbar,
-. main-navbar {
+.top-navbar {
     background-color: #1a1a1a;
     color: #ccc;
     width: 100%;
-}
-
-.top-navbar {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -53,6 +49,8 @@ header {
 }
 
 .main-navbar {
+    background-color: #1a1a1a;
+    color: #ccc;
     padding: 10px 0;
     width: 100%;
     justify-content: center;
