@@ -182,11 +182,9 @@ h1,h2,h3 {
 }
 
 #route {
-    max-width: auto;
-    height: auto;
-    align-items: center;
-    margin: 0;
-    border: 1px solid #ccc;
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
 }
 
 .center-link {
