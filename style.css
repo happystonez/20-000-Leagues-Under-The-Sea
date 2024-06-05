@@ -181,8 +181,7 @@ h1,h2,h3 {
     display: block;
 }
 
-#map-container {
-    width: 100%;
+#route {
     max-width: auto;
     height: auto;
     items: center;
