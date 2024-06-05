@@ -185,7 +185,8 @@ h1,h2,h3 {
     width: 100%;
     max-width: auto;
     height: auto;
-    margin: 20px auto; /* Center the map container */
+    items: center;
+    margin: 0;
     border: 1px solid #ccc;
 }
 
