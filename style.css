@@ -182,10 +182,10 @@ h1,h2,h3 {
 }
 
 #route {
-    width: 80%;
-    max-width:600px;
+    width: 50%;
     height: 600px;
     margin: 20px auto;
+    text-align: center;
 }
 
 .center-link {
