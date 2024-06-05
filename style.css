@@ -60,7 +60,7 @@ main {
     text-align: left;
 }
 
-h1,h2 {
+h1,h2,h3 {
     margin: 0;
     text-align: center;
 }
@@ -75,6 +75,8 @@ h1,h2 {
     flex: 1;
     padding: 20px;
 }
+
+
 
 .responsive-image {
     width: 100%;
