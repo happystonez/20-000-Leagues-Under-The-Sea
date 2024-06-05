@@ -181,7 +181,7 @@ h1,h2,h3 {
     display: block;
 }
 
-#route {
+.route {
     width: 50%;
     height: 600px;
     margin: 20px auto;
