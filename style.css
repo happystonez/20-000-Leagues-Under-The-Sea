@@ -184,7 +184,7 @@ h1,h2,h3 {
 #route {
     max-width: auto;
     height: auto;
-    items: center;
+    align-items: center;
     margin: 0;
     border: 1px solid #ccc;
 }
