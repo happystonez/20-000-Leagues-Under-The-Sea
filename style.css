@@ -11,11 +11,14 @@ body {
 header {
     width: 100%;
 }
+.navbar {
+    background-color: #1a1a1a;
+    color: #ccc;
+    width: 100%; 
+}
 
 .top-navbar {
     background-color: #1a1a1a;
-    color: #ccc;
-    width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -52,9 +55,6 @@ header {
     background-color: #1a1a1a;
     color: #ccc;
     padding: 10px 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav-list {
