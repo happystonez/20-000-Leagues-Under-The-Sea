@@ -22,6 +22,22 @@ header {
     width: 100%;
 }
 
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
 .social-links a {
     color: #ccc;
     margin: 0 10px;
@@ -32,7 +48,7 @@ header {
     color: #fff;
 }
 
-.top-navbar {
+.main-navbar {
     background-color: #333;
     padding: 10px 0;
     width: 100%;
