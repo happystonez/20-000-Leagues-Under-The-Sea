@@ -54,44 +54,6 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.main-navbar {
-    background-color: #1a1a1a;
-    color: #ccc;
-    padding: 10px 0;
-}
-
-.nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-item {
-    margin: 0 15px;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-    font-weight: bold;
-}
-
-.nav-link:hover {
-    background-color: #555;
-    color: #fff;
-}
-
-.nav-link.active {
-    background-color: #0066cc;
-    color: #fff;
-}
-
 main {
     width: 80%;
     margin: 20px auto;
