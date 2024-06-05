@@ -11,28 +11,31 @@ body {
 header {
     width: 100%;
 }
-.navbar {
+
+nav ul {
     background-color: #1a1a1a;
     color: #ccc;
     width: 100%; 
-}
-
-.top-navbar {
-    background-color: #1a1a1a;
-    padding: 10px 0;
-    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
-.contact-info {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
+nav ul li {
+    display: inline;
 }
 
-.contact-info span {
-    margin-right: 20px;
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #575757;
 }
 
 .social-links {
