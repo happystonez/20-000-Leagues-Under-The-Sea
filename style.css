@@ -76,6 +76,7 @@ header {
     padding: 10px 15px;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
 }
 
 .nav-link:hover {
