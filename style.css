@@ -181,6 +181,12 @@ h1,h2,h3 {
     display: block;
 }
 
+
+
+.route{
+    align-items: center;
+}
+
 .center-link {
     text-align: center;
     margin-top: 20px;
