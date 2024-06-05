@@ -183,8 +183,8 @@ h1,h2,h3 {
 
 #map-container {
     width: 100%;
-    max-width: 800px; /* Adjust this value as needed */
-    height: 500px; /* Adjust this value as needed */
+    max-width: auto;
+    height: auto;
     margin: 20px auto; /* Center the map container */
     border: 1px solid #ccc;
 }
