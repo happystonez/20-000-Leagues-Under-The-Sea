@@ -9,13 +9,33 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
     width: 100%;
 }
 
-.navbar {
+.top-navbar {
+    background-color: #1a1a1a;
+    color: #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-left: 20px;
+}
+
+.social-links a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+.main-navbar {
     background-color: #333;
     padding: 10px 0;
     width: 100%;
@@ -30,7 +50,7 @@ header {
 }
 
 .nav-item {
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 .nav-link {
