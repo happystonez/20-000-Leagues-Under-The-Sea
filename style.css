@@ -12,9 +12,12 @@ header {
     width: 100%;
 }
 
-.top-navbar {
+.top-navbar, .main-navbar {
     background-color: #1a1a1a;
     color: #ccc;
+}
+
+.top-navbar {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
