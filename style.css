@@ -181,10 +181,12 @@ h1,h2,h3 {
     display: block;
 }
 
-
-
-.route{
-    align-items: center;
+#map-container {
+    width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
+    height: 500px; /* Adjust this value as needed */
+    margin: 20px auto; /* Center the map container */
+    border: 1px solid #ccc;
 }
 
 .center-link {
