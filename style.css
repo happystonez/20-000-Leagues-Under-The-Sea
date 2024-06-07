@@ -55,7 +55,7 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 80%;
+    width: 80%;
     margin: 20px auto;
     padding: 20px;
     text-align: left;
