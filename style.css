@@ -126,7 +126,7 @@ h1,h2,h3 {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
 }
 
 .submarine {
@@ -142,7 +142,6 @@ h1,h2,h3 {
 .tell,
 .layout {
     margin-bottom: 20px;
-    text-align: left;
 }
 
 .submarine3 {
