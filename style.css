@@ -138,7 +138,7 @@ h1,h2,h3 {
 #map {
     width: 800px;
     height: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #sidebar {
