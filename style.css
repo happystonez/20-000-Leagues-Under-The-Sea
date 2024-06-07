@@ -52,7 +52,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-social-links a:hover {
+.social-links a:hover {
     color: #fff;
 }
 
@@ -70,14 +70,15 @@ h1, h2, h3 {
 }
 
 .content {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
+    flex-direction: row; /* 保持为 row */
     margin-top: 20px;
     text-align: left;
 }
 
 .left-column,
 .right-column {
-    width: 100%; /* 修改为 100% */
+    flex: 1; /* 使左右两栏平分空间 */
     padding: 20px;
 }
 
@@ -93,7 +94,7 @@ h1, h2, h3 {
 }
 
 .reverse {
-    flex-direction: column; /* 修改为 column */
+    flex-direction: row-reverse; /* 保持为 row-reverse */
 }
 
 .responsive-video {
@@ -102,20 +103,22 @@ h1, h2, h3 {
 }
 
 .sealife {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
     margin: 0;
 }
 
 .life-left {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
+    flex: 2;
     margin-top: 20px;
-    max-width: 100%; /* 修改为 100% */
+    max-width: 67%;
 }
 
 .life-right {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
+    flex: 1;
     margin-top: 20px;
-    max-width: 100%; /* 修改为 100% */
+    max-width: 33%;
 }
 
 .all {
@@ -128,13 +131,13 @@ h1, h2, h3 {
 }
 
 .submarine {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .image-half {
-    width: 100%; /* 修改为 100% */
+    width: 48%; /* 保持为 48% */
 }
 
 .tell,
@@ -147,18 +150,19 @@ h1, h2, h3 {
 }
 
 .abox {
-    display: block; /* 修改为 block */
+    display: flex; /* 保持为 flex */
     width: 100%;
+    flex-direction: row;
 }
 
 #map {
     height: calc(100vh - 250px);
-    width: 100%; /* 修改为 100% */
-    margin-right: 0;
+    width: 60%;
+    margin-right: 20px;
 }
 
 .chapter-list {
-    width: 100%; /* 修改为 100% */
+    width: 40%;
 }
 
 h2 {
@@ -236,3 +240,4 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #fff;
 }
+
