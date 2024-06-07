@@ -60,6 +60,11 @@ main {
     text-align: left;
 }
 
+.introduction {
+    width: 80%;
+    text-align: center;
+}
+
 h1,h2,h3 {
     margin: 0;
     text-align: center;
