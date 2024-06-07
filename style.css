@@ -150,61 +150,15 @@ h1,h2,h3 {
 
 
 #map {
-    width: 80%;
     height: 600px;
-    margin: 20px auto;
+    width: 100%;
 }
-
-#sidebar {
-    width: 80%;
-    margin: 0 auto;
+.chapter-content {
+    display: none;
+    margin: 10px 0;
 }
-
-#chapterList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#chapterList li {
+.chapter-title {
     cursor: pointer;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background: #f9f9f9;
-    transition: background 0.3s;
-}
-
-#chapterList li:hover {
-    background: #e9e9e9;
-}
-
-.chapter-detail {
-    display: none;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #ccc;
-}
-
-.chapter-detail.show {
-    display: block;
-}
-
-.details {
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: none;
-}
-
-.details img {
-    width: 100%;
-    height: auto;
-}
-
-
-#regionDetails {
-    background-color: #e9e9e9;
 }
 
 
