@@ -149,39 +149,40 @@ h1,h2,h3 {
 }
 
 #map {
-    height: 500px;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
 }
 
-#plotlist {
-    margin-top: 20px;
+#sidebar {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #chapterList {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 #chapterList li {
-    margin-bottom: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
     padding: 10px;
-    background: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    transition: background 0.3s;
 }
 
-#chapterList li h3 {
-    margin: 0;
+#chapterList li:hover {
+    background: #e9e9e9;
 }
 
 .chapter-detail {
     display: none;
     margin-top: 10px;
-    padding-left: 20px;
-    background: #fafafa;
-    border-left: 3px solid #007BFF;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
 }
 
 .chapter-detail.show {
