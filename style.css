@@ -156,6 +156,11 @@ h1,h2,h3 {
     border: 1px solid #ccc;
 }
 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
 #plots {
     width: 100%;
     max-width: 800px; 
