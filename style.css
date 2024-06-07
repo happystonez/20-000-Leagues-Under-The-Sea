@@ -181,10 +181,8 @@ h1,h2,h3 {
     display: block;
 }
 
-#route {
-    width: 50%;
-    height: 600px;
-    margin: 20px auto;
+.route {
+    width: 80%;
     text-align: center;
 }
 
