@@ -156,7 +156,7 @@ h1,h2,h3 {
 }
 
 #map {
-    height: calc(100vh - 250px); /* 适应设备高度，减去导航栏和其他内容的高度 */
+    height: 100%;
     width: 60%;
     margin-right: 20px;
 }
