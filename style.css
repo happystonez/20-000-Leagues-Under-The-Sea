@@ -76,7 +76,10 @@ h1,h2,h3 {
     padding: 20px;
 }
 
-
+.life-left, life-right {
+    flex: 1;
+    margin-top: 20px;
+}
 
 .responsive-image {
     width: 100%;
