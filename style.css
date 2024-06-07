@@ -60,26 +60,29 @@ main {
     padding: 15px;
     max-width: 1000px;
     margin: 0 auto;
-    display: block; /* Changed to block for row display */
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start for row layout */
 }
 
 h1, h2, h3 {
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 .content {
-    display: block; /* Changed to block for row display */
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: left;
+    width: 100%;
 }
 
 .left-column,
 .right-column {
     flex: 1;
     padding: 20px;
-    width: 100%; /* Ensure full width for each column */
 }
 
 .responsive-image {
@@ -103,22 +106,15 @@ h1, h2, h3 {
 }
 
 .sealife {
-    display: block; /* Changed to block for row display */
+    display: flex;
     margin: 0;
+    width: 100%;
 }
 
-.life-left {
-    display: block; /* Changed to block for row display */
-    flex: 2;
-    margin-top: 20px;
-    width: 100%; /* Ensure full width */
-}
-
-.life-right {
-    display: block; /* Changed to block for row display */
+.life-left, .life-right {
     flex: 1;
     margin-top: 20px;
-    width: 100%; /* Ensure full width */
+    max-width: 50%;
 }
 
 .all {
@@ -131,12 +127,14 @@ h1, h2, h3 {
 }
 
 .submarine {
-    display: block; /* Changed to block for row display */
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow items to wrap for better responsiveness */
 }
 
 .image-half {
-    width: 100%; /* Ensure full width */
+    width: 48%;
 }
 
 .tell,
@@ -149,18 +147,20 @@ h1, h2, h3 {
 }
 
 .abox {
-    display: block; /* Changed to block for row display */
+    display: flex;
     width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap for better responsiveness */
 }
 
 #map {
     height: calc(100vh - 250px);
-    width: 100%; /* Ensure full width */
-    margin-bottom: 20px;
+    width: 60%;
+    margin-right: 20px;
 }
 
 .chapter-list {
-    width: 100%; /* Ensure full width */
+    width: 40%;
 }
 
 h2 {
