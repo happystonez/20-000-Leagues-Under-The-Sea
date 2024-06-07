@@ -70,8 +70,8 @@ h1, h2, h3 {
 }
 
 .content {
-    display: flex; /* 保持为 flex */
-    flex-direction: row; /* 保持为 row */
+    display: flex; 
+    flex-direction: row; 
     margin-top: 20px;
     text-align: left;
 }
@@ -94,7 +94,7 @@ h1, h2, h3 {
 }
 
 .reverse {
-    flex-direction: row-reverse; /* 保持为 row-reverse */
+    flex-direction: row-reverse; 
 }
 
 .responsive-video {
@@ -103,19 +103,19 @@ h1, h2, h3 {
 }
 
 .sealife {
-    display: flex; /* 保持为 flex */
+    display: flex; 
     margin: 0;
 }
 
 .life-left {
-    display: flex; /* 保持为 flex */
+    display: flex; 
     flex: 2;
     margin-top: 20px;
     max-width: 67%;
 }
 
 .life-right {
-    display: flex; /* 保持为 flex */
+    display: flex; 
     flex: 1;
     margin-top: 20px;
     max-width: 33%;
@@ -131,13 +131,13 @@ h1, h2, h3 {
 }
 
 .submarine {
-    display: flex; /* 保持为 flex */
+    display: flex; 
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .image-half {
-    width: 48%; /* 保持为 48% */
+    width: 48%; 
 }
 
 .tell,
@@ -150,7 +150,7 @@ h1, h2, h3 {
 }
 
 .abox {
-    display: flex; /* 保持为 flex */
+    display: flex; 
     width: 100%;
     flex-direction: row;
 }
