@@ -105,6 +105,8 @@ h1,h2,h3 {
 .sealife {
     display: flex;
     margin-top: 20px;
+    width: 100%;
+    height: aoto;
 }
 
 .submarine1,
