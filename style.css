@@ -60,7 +60,7 @@ main {
     padding: 15px;
     max-width: 1000px;
     margin: 0 auto;
-    display: flex;
+    display: block; /* Changed to block for row display */
     text-align: left;
 }
 
@@ -70,16 +70,16 @@ h1, h2, h3 {
 }
 
 .content {
-    display: flex; 
-    flex-direction: row; 
+    display: block; /* Changed to block for row display */
     margin-top: 20px;
     text-align: left;
 }
 
 .left-column,
 .right-column {
-    flex: 1; /* 使左右两栏平分空间 */
+    flex: 1;
     padding: 20px;
+    width: 100%; /* Ensure full width for each column */
 }
 
 .responsive-image {
@@ -94,7 +94,7 @@ h1, h2, h3 {
 }
 
 .reverse {
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .responsive-video {
@@ -103,22 +103,22 @@ h1, h2, h3 {
 }
 
 .sealife {
-    display: flex; 
+    display: block; /* Changed to block for row display */
     margin: 0;
 }
 
 .life-left {
-    display: flex; 
+    display: block; /* Changed to block for row display */
     flex: 2;
     margin-top: 20px;
-    max-width: 67%;
+    width: 100%; /* Ensure full width */
 }
 
 .life-right {
-    display: flex; 
+    display: block; /* Changed to block for row display */
     flex: 1;
     margin-top: 20px;
-    max-width: 33%;
+    width: 100%; /* Ensure full width */
 }
 
 .all {
@@ -131,13 +131,12 @@ h1, h2, h3 {
 }
 
 .submarine {
-    display: flex; 
-    justify-content: space-between;
+    display: block; /* Changed to block for row display */
     margin-bottom: 20px;
 }
 
 .image-half {
-    width: 48%; 
+    width: 100%; /* Ensure full width */
 }
 
 .tell,
@@ -150,19 +149,18 @@ h1, h2, h3 {
 }
 
 .abox {
-    display: flex; 
+    display: block; /* Changed to block for row display */
     width: 100%;
-    flex-direction: row;
 }
 
 #map {
     height: calc(100vh - 250px);
-    width: 60%;
-    margin-right: 20px;
+    width: 100%; /* Ensure full width */
+    margin-bottom: 20px;
 }
 
 .chapter-list {
-    width: 40%;
+    width: 100%; /* Ensure full width */
 }
 
 h2 {
@@ -240,4 +238,3 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #fff;
 }
-
