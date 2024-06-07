@@ -122,10 +122,11 @@ h1,h2,h3 {
 
 .all {
     width: 80%;
-    max-width: 1200px;
+    max-width: 900px;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .submarine {
