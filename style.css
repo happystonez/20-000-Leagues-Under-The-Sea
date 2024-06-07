@@ -76,12 +76,6 @@ h1,h2,h3 {
     padding: 20px;
 }
 
-.life-left, 
-.life-right {
-    flex: 1;
-    margin-top: 20px;
-}
-
 .responsive-image {
     width: 100%;
     height: auto;
@@ -105,8 +99,21 @@ h1,h2,h3 {
 .sealife {
     display: flex;
     margin-top: 20px;
-    width: 100%;
-    height: aoto;
+}
+
+.life-left, {
+    display:flex;
+    flex: 2;
+    margin-top: 20px;
+    max-width: 67%;
+}
+
+.life-right {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    display: flex;
+    max-width: 33%;
 }
 
 .submarine1,
