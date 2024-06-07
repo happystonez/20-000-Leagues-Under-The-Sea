@@ -6,6 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
+
 // Add markers for each ocean region
 oceanRegions.forEach(region => {
     const marker = L.marker(region.coords).addTo(map);
@@ -16,6 +17,7 @@ oceanRegions.forEach(region => {
         <i>${region.intro}</i>
     `);
 });
+
 
 // Add markers for each chapter
 chapters.forEach(chapter => {
@@ -41,3 +43,4 @@ function toggleChapterDetail(chapter, li) {
     const detail = li.querySelector('.chapter-detail');
     detail.classList.toggle('show');
 }
+
