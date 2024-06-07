@@ -150,7 +150,7 @@ h1,h2,h3 {
 
 
 #map {
-    height: 600px;
+    height: calc(100vh - 50px); /* 减去导航栏的高度 */
     width: 100%;
 }
 .chapter-content {
