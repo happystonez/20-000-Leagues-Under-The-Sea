@@ -151,36 +151,42 @@ h1,h2,h3 {
 #map {
     height: 500px;
     width: 100%;
-}
-.plot {
-    margin: 10px 0;
-    cursor: pointer;
-}
-.plot-details {
-    display: none;
-    margin-top: 5px;
-    padding-left: 20px;
-}
-.plot-details.show {
-    display: block;
+    margin-bottom: 20px;
 }
 
-.chapterList-ul {
+#plotlist {
+    margin-top: 20px;
+}
+
+#chapterList {
     list-style-type: none;
     padding: 0;
 }
-.chapterList-li {
+
+#chapterList li {
     margin-bottom: 10px;
     cursor: pointer;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#chapterList li h3 {
+    margin: 0;
 }
 
 .chapter-detail {
     display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    background: #fafafa;
+    border-left: 3px solid #007BFF;
 }
+
 .chapter-detail.show {
     display: block;
 }
-
 
 .route {
     width: 80%;
