@@ -98,7 +98,7 @@ h1,h2,h3 {
 
 .sealife {
     display: flex;
-    margin-top: 20px;
+    margin: 0;
 }
 
 .life-left, {
