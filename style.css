@@ -156,9 +156,7 @@ h1 {
 }
 
 .plot-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100%;
 }
 
 .plot-box {
@@ -166,16 +164,27 @@ h1 {
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 20px;
-    margin: 10px;
-    width: 30%;
-    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.plot-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.plot-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
 .plot-box:hover {
     background-color: #e0e0e0;
-    transform: scale(1.05);
 }
 
 
