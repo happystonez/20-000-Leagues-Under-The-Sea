@@ -169,7 +169,7 @@ h1,h2,h3 {
 }
 
 #sidebar {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -177,6 +177,7 @@ h1,h2,h3 {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 80%;
 }
 
 #chapterList li {
