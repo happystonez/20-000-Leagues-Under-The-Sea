@@ -1,41 +1,26 @@
-// 创建地图
-const map = L.map('map').setView([20, 0], 2);
-
-// 添加地图瓦片层
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-// 遍历 oceanRegions 数据并添加标记
-oceanRegions.forEach(region => {
-    const marker = L.marker(region.coords).addTo(map)
-        .bindPopup(`<b>${region.name}</b><br>${region.description}<br><img src="oceanRegions/${region.image}" width="200px">`);
-});
-
-// 获取章节列表的容器
-const chapterList = document.getElementById('chapter-list');
-
-// 遍历 chapters 数据并生成章节列表
-chapters.forEach(chapter => {
-    const chapterDiv = document.createElement('div');
-    const chapterTitle = document.createElement('div');
-    const chapterContent = document.createElement('div');
-
-    chapterTitle.textContent = `${chapter.number}. ${chapter.title}`;
-    chapterTitle.className = 'chapter-title';
-    chapterContent.className = 'chapter-content';
-
-    chapterContent.innerHTML = `
-        <p><strong>Time:</strong> ${chapter.time}</p>
-        <p><strong>Plot:</strong> ${chapter.plot}</p>
-    `;
-
-    chapterTitle.addEventListener('click', () => {
-        const isVisible = chapterContent.style.display === 'block';
-        chapterContent.style.display = isVisible ? 'none' : 'block';
+document.addEventListener('DOMContentLoaded', function() {
+    const plotContainer = document.getElementById('plot-container');
+    
+    // Assuming data.js exports an array of plot objects
+    const plots = [
+        { id: 1, title: "Chapter 1", details: "Plot details for Chapter 1..." },
+        { id: 2, title: "Chapter 2", details: "Plot details for Chapter 2..." },
+        { id: 3, title: "Chapter 3", details: "Plot details for Chapter 3..." },
+        { id: 4, title: "Chapter 4", details: "Plot details for Chapter 4..." },
+        { id: 5, title: "Chapter 5", details: "Plot details for Chapter 5..." },
+        { id: 6, title: "Chapter 6", details: "Plot details for Chapter 6..." },
+        { id: 7, title: "Chapter 7", details: "Plot details for Chapter 7..." },
+        { id: 8, title: "Chapter 8", details: "Plot details for Chapter 8..." },
+        { id: 9, title: "Chapter 9", details: "Plot details for Chapter 9..." }
+    ];
+    
+    plots.forEach(plot => {
+        const plotBox = document.createElement('div');
+        plotBox.className = 'plot-box';
+        plotBox.textContent = plot.title;
+        plotBox.onclick = () => alert(plot.details);
+        plotContainer.appendChild(plotBox);
     });
-
-    chapterDiv.appendChild(chapterTitle);
-    chapterDiv.appendChild(chapterContent);
-    chapterList.appendChild(chapterDiv);
 });
+
+
