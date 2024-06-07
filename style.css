@@ -120,19 +120,6 @@ h1,h2,h3 {
     max-width: 33%;
 }
 
-.submarine1,
-.submarine2,
-.submarine3 {
-    display: flex;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.1-left img,
-.1-right img {
-    width: 100%;
-    height: auto;
-}
 
 
 #map {
