@@ -57,10 +57,10 @@ nav ul li a:hover {
 }
 
 main {
-    width: 80%;
-    margin: 20px auto;
     padding: 20px;
-    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;  
 }
 
 h1,h2,h3 {
