@@ -128,16 +128,10 @@ h1,h2,h3 {
     text-align: left;
 }
 
-.1-left, {
+.1-left img,
+.1-right img {
     width: 100%;
     height: auto;
-    text-align: left;
-}
-
-.1-right, {
-    width: 100%;
-    height: auto;
-    text-align: leftr;
 }
 
 
