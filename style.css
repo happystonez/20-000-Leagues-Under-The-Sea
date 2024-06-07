@@ -115,11 +115,32 @@ h1 {
     width: 100%;
 }
 
-.life-left, .life-right {
+.life-left, 
+.life-right {
     flex: 1;
     margin-top: 20px;
     max-width: 50%;
 }
+
+
+.word {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+}
+
+.word-left,
+.word-right {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+
 
 .all {
     width: 100%;
