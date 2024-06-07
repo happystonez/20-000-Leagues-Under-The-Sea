@@ -57,7 +57,6 @@ nav ul li a:hover {
 main {
     width: 80%;
     margin: 20px auto;
-    text-align: left;
 }
 
 .introduction {
@@ -73,6 +72,7 @@ h1,h2,h3 {
 .content {
     display: flex;
     margin-top: 20px;
+    text-align: left;
 }
 
 .left-column,
