@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20,000 Leagues Under the Sea Visualization</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="data.js"></script>
-    <script src="script.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>20,000 Leagues Under the Sea Visualization</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css">
 </head>
+
+<body>
 <body>
     <header>
     <nav>
@@ -21,17 +20,20 @@
         </ul>
     </nav>
     </header>
+    
     <main>
-        <h1>20,000 Leagues Under the Sea Map</h1><br>   
-        <div id="map"></div><br>
-        <h2>Chapters</h2><br>
-        <ul id="chapter-list"></ul>
-        </div><br>
+    <div id="map"></div>
+        <h2>Main Plot List</h2>
+    <div id="chapter-list"></div>
         <div class="route">
             <h2>Nautical Route Map</h2><br>
             <iframe src="https://prezi.com/p/embed/Jmm2wL7uOit9IOzVjJ1S/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="565px" width="100%"></iframe>
         </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
     </main>
+
     <footer>
         <div class="footer-content">
             <p>Copyright © All Rights Reserved 2024</p>
@@ -43,6 +45,7 @@
             </div>
         </div>
     </footer>
+
 </body>
-</html>
+</html>   
 
