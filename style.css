@@ -98,6 +98,11 @@ h1,h2,h3 {
     height: auto;
 }
 
+.sealife {
+    display: flex;
+    margin-top: 20px;
+}
+
 .submarine1,
 .submarine2,
 .submarine3 {
