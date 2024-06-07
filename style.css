@@ -125,16 +125,15 @@ h1 {
 
 .word {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: left;
+    margin: 0;
     width: 100%;
 }
 
-.word-left,
+.word-left, 
 .word-right {
     flex: 1;
-    padding: 20px;
+    margin-top: 20px;
+    max-width: 50%;
 }
 
 
