@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const plotDetails = document.createElement('div');
         plotDetails.className = 'plot-details';
-        plotDetails.textContent = chapter.plot;
+        plotDetails.innerHTML = `<strong>Time:</strong> ${chapter.time}<br>${chapter.plot}`;
         
         plotBox.appendChild(plotTitle);
         plotBox.appendChild(plotDetails);
