@@ -148,54 +148,35 @@ h1,h2,h3 {
     margin-bottom: 20px;
 }
 
-#map-container {
-    width: 100%;
-    max-width: 800px; /* Adjust width as needed */
-    height: 500px; /* Ensure map height is suitable */
-    margin: 20px auto;
-    border: 1px solid #ccc;
-}
-
 #map {
+    height: 500px;
     width: 100%;
-    height: 100%;
+}
+.plot {
+    margin: 10px 0;
+    cursor: pointer;
+}
+.plot-details {
+    display: none;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.plot-details.show {
+    display: block;
 }
 
-#plots {
-    width: 100%;
-    max-width: 800px; /* Ensure content width is consistent */
-    margin: 20px auto;
-    text-align: left; /* Ensure text is left-aligned */
-    box-sizing: border-box;
-}
-
-#chapterList {
+.chapterList-ul {
     list-style-type: none;
     padding: 0;
 }
-
-#chapterList li {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.chapterList-li {
+    margin-bottom: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#chapterList li:hover {
-    background-color: #eee;
 }
 
 .chapter-detail {
     display: none;
-    margin-top: 10px;
-    padding: 10px;
-    border-top: 1px solid #ccc;
-    text-align: left;
 }
-
 .chapter-detail.show {
     display: block;
 }
