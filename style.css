@@ -242,3 +242,17 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #fff;
 }
+
+/* 确保所有设备上的横向排列 */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#map {
+    width: 60%;
+}
+
+.chapter-list {
+    width: 40%;
+}
